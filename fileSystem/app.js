@@ -33,7 +33,7 @@ console.log("endprocess 2");
 
 /****************************rename file Function***********************/
 
-fs.rename('data2.txt','renamed.txt',(error)=>{
+/*fs.rename('data2.txt','renamed.txt',(error)=>{
     if (error) throw error;
     console.log("File Renamed!");
 });
@@ -45,4 +45,11 @@ fs.rename('data2.txt','renamed.txt',(error)=>{
     console.log("File Deleted!");
 
 });
-/****************************delete file Function***********************/
+/****************************Read file as a Stream Function***********************/
+/*fs.createReadStream('data.txt').pipe(fs.createWriteStream('data3.txt'));
+/****************************fileSystem read Directory Function***********************/
+fs.readdir('./../fileSystem/',(error,files)=>{
+    files.forEach(file=>{
+        console.log(file);
+    })
+});
