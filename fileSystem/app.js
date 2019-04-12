@@ -2,7 +2,7 @@ const fs = require('fs');
 
 /***************************************************************/
 //Creating file
-let content = "\n adding second line to file with NodeJS!"
+/*let content = "\n adding second line to file with NodeJS!"
 
 fs.appendFile("data.txt", content, function (error) {
     if (error) {
@@ -13,7 +13,7 @@ fs.appendFile("data.txt", content, function (error) {
 });
 
 /****************************Sync Function***********************/
-    console.log("init");
+  /*  console.log("init");
 
     fs.readFile('data.txt', 'utf-8', (error, data) => {
         if (error) {
@@ -25,11 +25,18 @@ fs.appendFile("data.txt", content, function (error) {
     console.log("endprocess");
 
 /****************************Async Function***********************/
-console.log("init process 2");
+/*console.log("init process 2");
 
 let data = fs.readFileSync('data.txt', 'utf-8');
 console.log(data);
 console.log("endprocess 2");
+
+/****************************rename file Function***********************/
+
+fs.rename('data2.txt','renamed.txt',(error)=>{
+    if (error) throw error;
+    console.log("File Renamed!");
+});
 
 /****************************delete file Function***********************/
 
