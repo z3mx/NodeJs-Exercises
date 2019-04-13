@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-exercises",
+  "version": "1.0.0",
+  "description": "adding to this Repo Some exercises",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z3mx/NodeJs-Exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z3mx/NodeJs-Exercises/issues"
+  },
+  "homepage": "https://github.com/z3mx/NodeJs-Exercises#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
