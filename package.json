@@ -18,6 +18,7 @@
   "homepage": "https://github.com/z3mx/NodeJs-Exercises#readme",
   "dependencies": {
     "lodash": "^4.17.11",
+    "request": "^2.88.0",
     "yargs": "^13.2.2"
   }
 }
