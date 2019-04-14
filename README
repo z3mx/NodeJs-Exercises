@@ -7,7 +7,8 @@ we wil work over those topics listed below.
 Require
 Arrow => functions
 File System
-lodash
+lodash & yargs
+GeoCode API from google
 Consume Github API 
 Promise
 Express % Middleware
